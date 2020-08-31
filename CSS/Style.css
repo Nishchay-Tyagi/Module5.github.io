@@ -1,0 +1,68 @@
+#page-title {
+text-align: center;
+}
+
+#picture-container {
+border: 1px solid black;
+width: 400px;
+/*height: 400px;*/
+margin: 0 auto;
+border: 2px solid red;
+padding: 20px;
+background: #000;
+border-radius: 10px;
+}
+
+#image {
+width: 100%;
+border: 2px solid red;
+border-radius: 5px;
+}
+
+#picture-css {
+width: 362px;
+height: 180px;
+margin: 0 auto;
+background-image: url(../images/image1.jpg);
+}
+
+#hovers {
+width: 200px;
+height: 200px;
+border: 1px solid black;
+background-image: url(../images/thor.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+opacity: 0.5;
+margin: auto;
+margin-top: 5cm;    
+}
+
+#hovers:hover {
+background-color: #000;
+border: 1px solid red;
+color: red;
+opacity: 1;
+}
+
+#hovers h2 {
+text-align:center;    
+}
+ 
+#Thor {
+opacity: 0;
+}
+
+#Thor:hover {
+opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
